@@ -1,0 +1,51 @@
+# Build directories and CMake outputs
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and libraries
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+simulator
+simulator.exe
+
+# Simulation outputs & CSV logs
+*.csv
+add_latencies.csv
+match_latencies.csv
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*~
+*.suo
+*.user
+*.userosv
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
